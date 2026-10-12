@@ -1,8 +1,8 @@
 {
-  "apiKey": "",
-  "authDomain": "",
-  "projectId": "",
-  "storageBucket": "",
-  "messagingSenderId": "",
-  "appId": ""
+    "apiKey": "AIzaSyCVJ16WdlJQ_O_0TCa2QIDiI88DYPZsAYs",
+    "authDomain": "settlers-of-the-frontier.firebaseapp.com",
+    "projectId": "settlers-of-the-frontier",
+    "storageBucket": "settlers-of-the-frontier.firebasestorage.app",
+    "messagingSenderId": "193768499450",
+    "appId": "1:193768499450:web:2e08c68ab5f56194c84143"
 }
