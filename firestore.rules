@@ -1,0 +1,15 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    match /rooms/{code} {
+      allow read: if code.matches('^[A-Z0-9]{4}$');
+      allow create: if code.matches('^[A-Z0-9]{4}$')
+        && request.resource.data.status == 'lobby'
+        && request.resource.data.players.size() == 1
+        && request.resource.data.revision == 0;
+      allow update: if code.matches('^[A-Z0-9]{4}$')
+        && request.resource.data.revision >= resource.data.revision;
+      allow delete: if code.matches('^[A-Z0-9]{4}$');
+    }
+  }
+}
