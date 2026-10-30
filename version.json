@@ -1,0 +1,15 @@
+{
+  "version": "2.3.0",
+  "web": {
+    "url": "https://junkyardbadger.github.io/settlers-of-the-frontier/"
+  },
+  "apk": {
+    "versionCode": 5,
+    "versionName": "2.3",
+    "url": "https://junkyardbadger.github.io/settlers-of-the-frontier/settlers-of-the-frontier.apk"
+  },
+  "windows": {
+    "version": "2.3.0",
+    "url": "https://junkyardbadger.github.io/settlers-of-the-frontier/settlers-of-the-frontier-windows.exe"
+  }
+}
